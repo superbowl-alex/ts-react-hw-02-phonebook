@@ -8,10 +8,14 @@ const GlobalStyles = () => {
 
         body {
           padding-top: 50px;
+          margin: 0;
+          font-family: -apple-system, BlinkMacSystemFont, 'Comic Sans MS',
+            'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+            'Droid Sans', 'Helvetica Neue', sans-serif;
           -webkit-font-smoothing: antialiased;
           -moz-osx-font-smoothing: grayscale;
-          box-sizing: border-box;
           background-color: rgb(229, 246, 246);
+          box-sizing: border-box;
         }
 
         h1,
